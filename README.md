@@ -36,8 +36,7 @@ O sistema oferece um menu interativo com as seguintes opções:
 Certifique-se de ter o PostgreSQL instalado e uma base de dados criada com o nome `literalura_db`.
 
 ### 2. Variáveis de Ambiente
-O projeto utiliza a variável `${DB_USER}` para a usuário do banco de dados no arquivo `application.properties`. Configure-a no seu IDE ou sistema operacional.
-O projeto utiliza a variável `${DB_PASSWORD}` para a senha do banco de dados no arquivo `application.properties`. Configure-a no seu IDE ou sistema operacional.
+O projeto utiliza a variável `${DB_USER}` e `${DB_PASSWORD}` para a usuário e senha do banco de dados no arquivo `application.properties`. Configure-a no seu IDE ou sistema operacional.
 
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/literalura_db
